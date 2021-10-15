@@ -1,3 +1,55 @@
-h1{
-    color: red;
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.bg-primary-color {
+  background-color: white;
+}
+.bg-secondary-color {
+  background-color: rgb(224, 208, 208);
+}
+.bg-dark-color {
+  background-color: #050505;
+}
+.primary-color {
+  color: #050505;
+}
+
+.secondary-color {
+  color: #686666;
+}
+
+/* NAVBAR */
+#navbar {
+  border-bottom: 1px solid #686666;
+}
+
+#navbar a:hover {
+  color: #686666;
+}
+
+#navbar a.active{
+    border-bottom: 0.5px solid #504e4e;
+}
+
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.navbar-brand span{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-left: 0.3em;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em;
 }
