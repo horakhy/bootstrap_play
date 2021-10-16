@@ -28,28 +28,84 @@
   color: #686666;
 }
 
-#navbar a.active{
-    border-bottom: 0.5px solid #504e4e;
+#navbar a.active {
+  border-bottom: 0.5px solid #504e4e;
 }
 
-.navbar-brand{
-    display: flex;
+.navbar-brand {
+  display: flex;
 }
-.navbar-brand img{
-    width: 50px;
+.navbar-brand img {
+  width: 50px;
 }
-.navbar-brand span{
-    font-weight: 600;
-    font-size: 1.5em;
-    margin-left: 0.3em;
-}
-
-#navbar-items .navbar-nav{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.navbar-brand span {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-left: 0.3em;
 }
 
-#navbar-items .nav-item{
-    margin: 0 1em;
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#navbar-items .nav-item {
+  margin: 0 1em;
+}
+
+/* -- SLIDER --*/
+
+#slider {
+  margin-top: 8em;
+  margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+  bottom: 3em;
+}
+
+#slider .carousel-caption h5 {
+  font-size: 2.5em;
+  text-shadow: #050505 1px 1px;
+}
+
+.btn {
+  border-radius: 1px;
+}
+
+#slider .btn {
+  padding: 0.3em 0.8em;
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: rgb(17, 17, 17);
+  font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #222;
+  opacity: 0.9;
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+@media (min-width: 768px) {
+  /*Media Query for the images*/
+  slider .carousel-caption {
+    bottom: 15em;
+  }
+  #slider .carousel-caption h5 {
+    font-size: 4em;
+    text-shadow: #050505 2px 2px;
+  }
+  #slider .btn {
+    padding: 0.3em 0.8em;
+    font-size: 1.2em;
+  }
 }
